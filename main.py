@@ -39,3 +39,5 @@ async def read_model_name(model_name: ModelName):
         return {"Model name is:": model_name, "message": "LeCNN all the images"}
     else:
         return {"Model name is:": model_name, "message": "Have some residuals"}
+
+
